@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0345A01E87A75600CE88EE /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03459B1E87A75600CE88EE /* DrawerViewController.swift */; };
+		2D0345A11E87A75600CE88EE /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03459C1E87A75600CE88EE /* KYDrawerController.swift */; };
+		2D0345A21E87A75600CE88EE /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03459D1E87A75600CE88EE /* KYEmbedDrawerControllerSegue.swift */; };
+		2D0345A31E87A75600CE88EE /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03459E1E87A75600CE88EE /* KYEmbedMainControllerSegue.swift */; };
+		2D0345A41E87A75600CE88EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03459F1E87A75600CE88EE /* MainViewController.swift */; };
+		2D0345A61E87ABCE00CE88EE /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345A51E87ABCE00CE88EE /* MenuVC.swift */; };
+		2D0345A81E87B64900CE88EE /* CenturyGothic Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D0345A71E87B64900CE88EE /* CenturyGothic Bold.ttf */; };
+		2D0345AE1E881C9100CE88EE /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345AA1E881C9100CE88EE /* SideMenuManager.swift */; };
+		2D0345AF1E881C9100CE88EE /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345AB1E881C9100CE88EE /* SideMenuTransition.swift */; };
+		2D0345B01E881C9100CE88EE /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345AC1E881C9100CE88EE /* UISideMenuNavigationController.swift */; };
+		2D0345B11E881C9100CE88EE /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345AD1E881C9100CE88EE /* UITableViewVibrantCell.swift */; };
+		2D0345B31E88388C00CE88EE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345B21E88388C00CE88EE /* ProfileVC.swift */; };
+		2D0687B01E82AC5300909B61 /* ValidatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0687AF1E82AC5300909B61 /* ValidatingTextField.swift */; };
+		2D0687B41E82B3D100909B61 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0687B31E82B3D100909B61 /* UserInfo.swift */; };
+		2D3C56371E857279005E0104 /* AFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C56361E857279005E0104 /* AFWrapper.swift */; };
+		2D5E785B1E549220006E3470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E785A1E549220006E3470 /* AppDelegate.swift */; };
+		2D5E78601E549220006E3470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E785E1E549220006E3470 /* Main.storyboard */; };
+		2D5E78631E549220006E3470 /* Think_Golf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78611E549220006E3470 /* Think_Golf.xcdatamodeld */; };
+		2D5E78651E549220006E3470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E78641E549220006E3470 /* Assets.xcassets */; };
+		2D5E78681E549220006E3470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E78661E549220006E3470 /* LaunchScreen.storyboard */; };
+		2D5E78981E560F91006E3470 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78941E560F91006E3470 /* LoginVC.swift */; };
+		2D5E789E1E561000006E3470 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E789B1E561000006E3470 /* CarouselCollectionViewCell.swift */; };
+		2D5E789F1E561000006E3470 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E789C1E561000006E3470 /* Character.swift */; };
+		2D5E78A01E561000006E3470 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E789D1E561000006E3470 /* GradientView.swift */; };
+		2D5E78A21E561093006E3470 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78A11E561093006E3470 /* DashboardVC.swift */; };
+		2D5E78A41E561112006E3470 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78A31E561112006E3470 /* UPCarouselFlowLayout.swift */; };
+		2D5E78A61E561291006E3470 /* SegueIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E78A51E561291006E3470 /* SegueIdentifiers.swift */; };
+		2D7C81CB1E8646F800947B21 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7C81C81E8646F800947B21 /* FBSDKCoreKit.framework */; };
+		2D7C81CC1E8646F800947B21 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7C81C91E8646F800947B21 /* FBSDKLoginKit.framework */; };
+		2D7C81CD1E8646F800947B21 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7C81CA1E8646F800947B21 /* FBSDKShareKit.framework */; };
+		2D7C81CF1E864D1E00947B21 /* RegisterUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C81CE1E864D1E00947B21 /* RegisterUser.swift */; };
+		2D7C81D21E86D5D900947B21 /* LinkedInWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C81D11E86D5D900947B21 /* LinkedInWebVC.swift */; };
+		2DA94C351E6116EB00580E7E /* CustomPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA94C331E6116EB00580E7E /* CustomPageViewController.swift */; };
+		2DA94C361E6116EB00580E7E /* Walkthrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA94C341E6116EB00580E7E /* Walkthrough.storyboard */; };
+		2DA94C411E613DD300580E7E /* CenturyGothic Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DA94C401E613DD300580E7E /* CenturyGothic Regular.ttf */; };
+		2DA94C431E61607100580E7E /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA94C421E61607100580E7E /* RegistrationVC.swift */; };
+		2DB13CD91E61E5CA00062994 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB13CD81E61E5CA00062994 /* Helper.swift */; };
+		2DB7B18A1E804B5800509C70 /* DBAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7B1891E804B5800509C70 /* DBAlertController.swift */; };
+		2DC9939E1E5D5C7E000CD766 /* CustomPaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */; };
+		2DFB0DD41E80F1EB00918AF0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFB0DD31E80F1EB00918AF0 /* Reachability.swift */; };
+		2DFF48321E803F9800A57504 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF482E1E803F9800A57504 /* ConfigurationManager.swift */; };
+		2DFF48331E803F9800A57504 /* URLConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF482F1E803F9800A57504 /* URLConfig.plist */; };
+		2DFF48341E803F9800A57504 /* CredentialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48311E803F9800A57504 /* CredentialManager.swift */; };
+		2DFF48361E80424F00A57504 /* CommonMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48351E80424F00A57504 /* CommonMethods.swift */; };
+		2DFF483B1E80428800A57504 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DFF48381E80428800A57504 /* Info.plist */; };
+		2DFF483C1E80428800A57504 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48391E80428800A57504 /* KeychainWrapper.swift */; };
+		2DFF48471E80431B00A57504 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF483F1E80431B00A57504 /* Base64.m */; };
+		2DFF48491E80431B00A57504 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48441E80431B00A57504 /* README.md */; };
+		2DFF484A1E80431B00A57504 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF48461E80431B00A57504 /* XMLReader.m */; };
+		2DFF48531E80440800A57504 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF484D1E80440800A57504 /* DateExtension.swift */; };
+		2DFF48541E80440800A57504 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */; };
+		2F0256D86E3297081E02C146 /* Pods_ThinkGolf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2199488BAECF98995F57E63E /* Pods-Think GolfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think GolfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Think GolfUITests/Pods-Think GolfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D03459B1E87A75600CE88EE /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		2D03459C1E87A75600CE88EE /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		2D03459D1E87A75600CE88EE /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		2D03459E1E87A75600CE88EE /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		2D03459F1E87A75600CE88EE /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2D0345A51E87ABCE00CE88EE /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		2D0345A71E87B64900CE88EE /* CenturyGothic Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CenturyGothic Bold.ttf"; sourceTree = "<group>"; };
+		2D0345AA1E881C9100CE88EE /* SideMenuManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuManager.swift; sourceTree = "<group>"; };
+		2D0345AB1E881C9100CE88EE /* SideMenuTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTransition.swift; sourceTree = "<group>"; };
+		2D0345AC1E881C9100CE88EE /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		2D0345AD1E881C9100CE88EE /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		2D0345B21E88388C00CE88EE /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		2D0687AF1E82AC5300909B61 /* ValidatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatingTextField.swift; sourceTree = "<group>"; };
+		2D0687B31E82B3D100909B61 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		2D3C56321E85512F005E0104 /* ThinkGolf-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkGolf-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D3C56361E857279005E0104 /* AFWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFWrapper.swift; sourceTree = "<group>"; };
+		2D5E78571E549220006E3470 /* ThinkGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5E785A1E549220006E3470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D5E785F1E549220006E3470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D5E78621E549220006E3470 /* Think_Golf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Think_Golf.xcdatamodel; sourceTree = "<group>"; };
+		2D5E78641E549220006E3470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D5E78671E549220006E3470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D5E78691E549220006E3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5E78721E549220006E3470 /* Think_GolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_GolfTests.swift; sourceTree = "<group>"; };
+		2D5E78741E549220006E3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5E787D1E549220006E3470 /* Think_GolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Think_GolfUITests.swift; sourceTree = "<group>"; };
+		2D5E787F1E549220006E3470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5E78941E560F91006E3470 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2D5E789B1E561000006E3470 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		2D5E789C1E561000006E3470 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2D5E789D1E561000006E3470 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2D5E78A11E561093006E3470 /* DashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		2D5E78A31E561112006E3470 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		2D5E78A51E561291006E3470 /* SegueIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueIdentifiers.swift; sourceTree = "<group>"; };
+		2D7C81C81E8646F800947B21 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Think Golf/Framework/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		2D7C81C91E8646F800947B21 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Think Golf/Framework/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		2D7C81CA1E8646F800947B21 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "Think Golf/Framework/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		2D7C81CE1E864D1E00947B21 /* RegisterUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterUser.swift; sourceTree = "<group>"; };
+		2D7C81D11E86D5D900947B21 /* LinkedInWebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInWebVC.swift; sourceTree = "<group>"; };
+		2DA94C331E6116EB00580E7E /* CustomPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPageViewController.swift; sourceTree = "<group>"; };
+		2DA94C341E6116EB00580E7E /* Walkthrough.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Walkthrough.storyboard; path = "Libs/3rd Party/BWWalkthrough/Walkthrough.storyboard"; sourceTree = "<group>"; };
+		2DA94C401E613DD300580E7E /* CenturyGothic Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CenturyGothic Regular.ttf"; sourceTree = "<group>"; };
+		2DA94C421E61607100580E7E /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		2DB13CD81E61E5CA00062994 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2DB7B1891E804B5800509C70 /* DBAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBAlertController.swift; path = "3rd Party/DBAlertController.swift"; sourceTree = "<group>"; };
+		2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPaperCell.swift; sourceTree = "<group>"; };
+		2DFB0DD31E80F1EB00918AF0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2DFF482E1E803F9800A57504 /* ConfigurationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		2DFF482F1E803F9800A57504 /* URLConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = URLConfig.plist; sourceTree = "<group>"; };
+		2DFF48311E803F9800A57504 /* CredentialManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialManager.swift; sourceTree = "<group>"; };
+		2DFF48351E80424F00A57504 /* CommonMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonMethods.swift; sourceTree = "<group>"; };
+		2DFF48381E80428800A57504 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DFF48391E80428800A57504 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		2DFF483A1E80428800A57504 /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		2DFF483E1E80431B00A57504 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		2DFF483F1E80431B00A57504 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		2DFF48441E80431B00A57504 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DFF48451E80431B00A57504 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		2DFF48461E80431B00A57504 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		2DFF484D1E80440800A57504 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
+		426741D6F756D80FA8E71D85 /* Pods-ThinkGolf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf.debug.xcconfig"; sourceTree = "<group>"; };
+		56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkGolf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77691683BC116D86522CFA49 /* Pods_Think_GolfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Think_GolfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D604A24E0239C1BED71320 /* Pods-Think GolfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think GolfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Think GolfUITests/Pods-Think GolfUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB44ED303B6A8E388315B8A7 /* Pods-ThinkGolfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolfTests/Pods-ThinkGolfTests.release.xcconfig"; sourceTree = "<group>"; };
+		B95AD6020DF5C57B608CC425 /* Pods-ThinkGolf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolf.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf.release.xcconfig"; sourceTree = "<group>"; };
+		C511A23AB2C137E717E829D2 /* Pods-ThinkGolfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolfTests/Pods-ThinkGolfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF556B6BF4CCA1E9CF96D260 /* Pods_ThinkGolfUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkGolfUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1950A816F5B6E382D32CCD4 /* Pods-ThinkGolfUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolfUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolfUITests/Pods-ThinkGolfUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D31DB842C392768DC96DE2C6 /* Pods_Think_Golf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Think_Golf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C91E223984727693F40B7E /* Pods-ThinkGolfUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkGolfUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkGolfUITests/Pods-ThinkGolfUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C07CAE18E835244CD85CCA /* Pods-Think Golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think Golf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Think Golf/Pods-Think Golf.debug.xcconfig"; sourceTree = "<group>"; };
+		E16FDE664F54A9BF32B3707C /* Pods_ThinkGolfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThinkGolfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6387BADABD263C9533E6FD5 /* Pods_Think_GolfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Think_GolfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB408C90FDD8767A061C393D /* Pods-Think Golf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think Golf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Think Golf/Pods-Think Golf.release.xcconfig"; sourceTree = "<group>"; };
+		F0251D4A373385F8E8BAC3CC /* Pods-Think GolfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think GolfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Think GolfTests/Pods-Think GolfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E99F58823E93E5118DE559 /* Pods-Think GolfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Think GolfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Think GolfTests/Pods-Think GolfTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5E78541E549220006E3470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7C81CD1E8646F800947B21 /* FBSDKShareKit.framework in Frameworks */,
+				2F0256D86E3297081E02C146 /* Pods_ThinkGolf.framework in Frameworks */,
+				2D7C81CB1E8646F800947B21 /* FBSDKCoreKit.framework in Frameworks */,
+				2D7C81CC1E8646F800947B21 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D03459A1E87A75600CE88EE /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				2D03459B1E87A75600CE88EE /* DrawerViewController.swift */,
+				2D03459C1E87A75600CE88EE /* KYDrawerController.swift */,
+				2D03459D1E87A75600CE88EE /* KYEmbedDrawerControllerSegue.swift */,
+				2D03459E1E87A75600CE88EE /* KYEmbedMainControllerSegue.swift */,
+				2D03459F1E87A75600CE88EE /* MainViewController.swift */,
+			);
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		2D0345A91E881C9100CE88EE /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2D0345AA1E881C9100CE88EE /* SideMenuManager.swift */,
+				2D0345AB1E881C9100CE88EE /* SideMenuTransition.swift */,
+				2D0345AC1E881C9100CE88EE /* UISideMenuNavigationController.swift */,
+				2D0345AD1E881C9100CE88EE /* UITableViewVibrantCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		2D3C56351E85726B005E0104 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C56361E857279005E0104 /* AFWrapper.swift */,
+				2D7C81CE1E864D1E00947B21 /* RegisterUser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D5E784E1E549220006E3470 = {
+			isa = PBXGroup;
+			children = (
+				2D3C56321E85512F005E0104 /* ThinkGolf-Bridging-Header.h */,
+				2D5E78591E549220006E3470 /* Think Golf */,
+				2D5E78711E549220006E3470 /* Think GolfTests */,
+				2D5E787C1E549220006E3470 /* Think GolfUITests */,
+				2D5E78581E549220006E3470 /* Products */,
+				D544E99309C08B9BFF796E98 /* Pods */,
+				F5C14FAAA02F1E7077D6B317 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5E78581E549220006E3470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E78571E549220006E3470 /* ThinkGolf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5E78591E549220006E3470 /* Think Golf */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E785A1E549220006E3470 /* AppDelegate.swift */,
+				2DFF48271E803D0A00A57504 /* Model */,
+				2D5E78991E560F9F006E3470 /* View */,
+				2D5E78931E560F91006E3470 /* Controllers */,
+				2D5E78951E560F91006E3470 /* Libs */,
+				2D3C56351E85726B005E0104 /* Services */,
+				2DA94C3E1E613DB900580E7E /* Resources */,
+				2D5E78641E549220006E3470 /* Assets.xcassets */,
+				2D5E78691E549220006E3470 /* Info.plist */,
+				2D5E78611E549220006E3470 /* Think_Golf.xcdatamodeld */,
+			);
+			path = "Think Golf";
+			sourceTree = "<group>";
+		};
+		2D5E78711E549220006E3470 /* Think GolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E78721E549220006E3470 /* Think_GolfTests.swift */,
+				2D5E78741E549220006E3470 /* Info.plist */,
+			);
+			path = "Think GolfTests";
+			sourceTree = "<group>";
+		};
+		2D5E787C1E549220006E3470 /* Think GolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E787D1E549220006E3470 /* Think_GolfUITests.swift */,
+				2D5E787F1E549220006E3470 /* Info.plist */,
+			);
+			path = "Think GolfUITests";
+			sourceTree = "<group>";
+		};
+		2D5E78931E560F91006E3470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E78941E560F91006E3470 /* LoginVC.swift */,
+				2DA94C421E61607100580E7E /* RegistrationVC.swift */,
+				2D5E78A11E561093006E3470 /* DashboardVC.swift */,
+				2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */,
+				2D0345A51E87ABCE00CE88EE /* MenuVC.swift */,
+				2D0345B21E88388C00CE88EE /* ProfileVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2D5E78951E560F91006E3470 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF484B1E80440800A57504 /* Extensions */,
+				2DFF482D1E803F9800A57504 /* ConfigurationManager */,
+				2DFF48301E803F9800A57504 /* CredentialManager */,
+				2DB7B1891E804B5800509C70 /* DBAlertController.swift */,
+				2D5E78961E560F91006E3470 /* 3rd Party */,
+				2D5E78971E560F91006E3470 /* Common */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		2D5E78961E560F91006E3470 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				2D0345A91E881C9100CE88EE /* SideMenu */,
+				2D03459A1E87A75600CE88EE /* KYDrawerController */,
+				2D7C81D01E86D5D900947B21 /* LinkedIn Login */,
+				2DFF483D1E80431B00A57504 /* Base64 */,
+				2DFF48401E80431B00A57504 /* Reachability */,
+				2DFF48431E80431B00A57504 /* XMLReader */,
+				2DFF48371E80428800A57504 /* SwiftKeychainWrapper */,
+				2DA94C321E6116EB00580E7E /* BWWalkthrough */,
+				2D5E789A1E561000006E3470 /* UPCarouselFlowLayout */,
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
+		2D5E78971E560F91006E3470 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2D0687AF1E82AC5300909B61 /* ValidatingTextField.swift */,
+				2DFF48351E80424F00A57504 /* CommonMethods.swift */,
+				2DB13CD81E61E5CA00062994 /* Helper.swift */,
+				2D5E78A51E561291006E3470 /* SegueIdentifiers.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2D5E78991E560F9F006E3470 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E785E1E549220006E3470 /* Main.storyboard */,
+				2DA94C341E6116EB00580E7E /* Walkthrough.storyboard */,
+				2D5E78661E549220006E3470 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2D5E789A1E561000006E3470 /* UPCarouselFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E789B1E561000006E3470 /* CarouselCollectionViewCell.swift */,
+				2D5E789C1E561000006E3470 /* Character.swift */,
+				2D5E789D1E561000006E3470 /* GradientView.swift */,
+				2D5E78A31E561112006E3470 /* UPCarouselFlowLayout.swift */,
+			);
+			path = UPCarouselFlowLayout;
+			sourceTree = "<group>";
+		};
+		2D7C81D01E86D5D900947B21 /* LinkedIn Login */ = {
+			isa = PBXGroup;
+			children = (
+				2D7C81D11E86D5D900947B21 /* LinkedInWebVC.swift */,
+			);
+			path = "LinkedIn Login";
+			sourceTree = "<group>";
+		};
+		2DA94C321E6116EB00580E7E /* BWWalkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				2DA94C331E6116EB00580E7E /* CustomPageViewController.swift */,
+			);
+			path = BWWalkthrough;
+			sourceTree = "<group>";
+		};
+		2DA94C3E1E613DB900580E7E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DA94C3F1E613DD300580E7E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DA94C3F1E613DD300580E7E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2DA94C401E613DD300580E7E /* CenturyGothic Regular.ttf */,
+				2D0345A71E87B64900CE88EE /* CenturyGothic Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2DFF48271E803D0A00A57504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D0687B31E82B3D100909B61 /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DFF482D1E803F9800A57504 /* ConfigurationManager */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF482E1E803F9800A57504 /* ConfigurationManager.swift */,
+				2DFF482F1E803F9800A57504 /* URLConfig.plist */,
+			);
+			path = ConfigurationManager;
+			sourceTree = "<group>";
+		};
+		2DFF48301E803F9800A57504 /* CredentialManager */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF48311E803F9800A57504 /* CredentialManager.swift */,
+			);
+			path = CredentialManager;
+			sourceTree = "<group>";
+		};
+		2DFF48371E80428800A57504 /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF48381E80428800A57504 /* Info.plist */,
+				2DFF48391E80428800A57504 /* KeychainWrapper.swift */,
+				2DFF483A1E80428800A57504 /* SwiftKeychainWrapper.h */,
+			);
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		2DFF483D1E80431B00A57504 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF483E1E80431B00A57504 /* Base64.h */,
+				2DFF483F1E80431B00A57504 /* Base64.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		2DFF48401E80431B00A57504 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2DFB0DD31E80F1EB00918AF0 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2DFF48431E80431B00A57504 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF48441E80431B00A57504 /* README.md */,
+				2DFF48451E80431B00A57504 /* XMLReader.h */,
+				2DFF48461E80431B00A57504 /* XMLReader.m */,
+			);
+			path = XMLReader;
+			sourceTree = "<group>";
+		};
+		2DFF484B1E80440800A57504 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DFF484D1E80440800A57504 /* DateExtension.swift */,
+				2DFF484E1E80440800A57504 /* DictionaryExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D544E99309C08B9BFF796E98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0C07CAE18E835244CD85CCA /* Pods-Think Golf.debug.xcconfig */,
+				EB408C90FDD8767A061C393D /* Pods-Think Golf.release.xcconfig */,
+				F0251D4A373385F8E8BAC3CC /* Pods-Think GolfTests.debug.xcconfig */,
+				F7E99F58823E93E5118DE559 /* Pods-Think GolfTests.release.xcconfig */,
+				A4D604A24E0239C1BED71320 /* Pods-Think GolfUITests.debug.xcconfig */,
+				2199488BAECF98995F57E63E /* Pods-Think GolfUITests.release.xcconfig */,
+				426741D6F756D80FA8E71D85 /* Pods-ThinkGolf.debug.xcconfig */,
+				B95AD6020DF5C57B608CC425 /* Pods-ThinkGolf.release.xcconfig */,
+				C511A23AB2C137E717E829D2 /* Pods-ThinkGolfTests.debug.xcconfig */,
+				AB44ED303B6A8E388315B8A7 /* Pods-ThinkGolfTests.release.xcconfig */,
+				D6C91E223984727693F40B7E /* Pods-ThinkGolfUITests.debug.xcconfig */,
+				D1950A816F5B6E382D32CCD4 /* Pods-ThinkGolfUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5C14FAAA02F1E7077D6B317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D7C81C81E8646F800947B21 /* FBSDKCoreKit.framework */,
+				2D7C81C91E8646F800947B21 /* FBSDKLoginKit.framework */,
+				2D7C81CA1E8646F800947B21 /* FBSDKShareKit.framework */,
+				D31DB842C392768DC96DE2C6 /* Pods_Think_Golf.framework */,
+				E6387BADABD263C9533E6FD5 /* Pods_Think_GolfTests.framework */,
+				77691683BC116D86522CFA49 /* Pods_Think_GolfUITests.framework */,
+				56B8C5F2A724C8150D861A7F /* Pods_ThinkGolf.framework */,
+				E16FDE664F54A9BF32B3707C /* Pods_ThinkGolfTests.framework */,
+				CF556B6BF4CCA1E9CF96D260 /* Pods_ThinkGolfUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5E78561E549220006E3470 /* ThinkGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5E78821E549220006E3470 /* Build configuration list for PBXNativeTarget "ThinkGolf" */;
+			buildPhases = (
+				97E143648894E36843F6C161 /* [CP] Check Pods Manifest.lock */,
+				2D5E78531E549220006E3470 /* Sources */,
+				2D5E78541E549220006E3470 /* Frameworks */,
+				2D5E78551E549220006E3470 /* Resources */,
+				D3772542379E830092D07A9B /* [CP] Embed Pods Frameworks */,
+				2F835E021B05E62D9D9D8BCE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkGolf;
+			productName = "Think Golf";
+			productReference = 2D5E78571E549220006E3470 /* ThinkGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5E784F1E549220006E3470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vogcalgary App Developer";
+				TargetAttributes = {
+					2D5E78561E549220006E3470 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2BMJ72PCJ8;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D5E78521E549220006E3470 /* Build configuration list for PBXProject "ThinkGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D5E784E1E549220006E3470;
+			productRefGroup = 2D5E78581E549220006E3470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5E78561E549220006E3470 /* ThinkGolf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5E78551E549220006E3470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5E78681E549220006E3470 /* LaunchScreen.storyboard in Resources */,
+				2DA94C361E6116EB00580E7E /* Walkthrough.storyboard in Resources */,
+				2DA94C411E613DD300580E7E /* CenturyGothic Regular.ttf in Resources */,
+				2D0345A81E87B64900CE88EE /* CenturyGothic Bold.ttf in Resources */,
+				2D5E78651E549220006E3470 /* Assets.xcassets in Resources */,
+				2DFF48331E803F9800A57504 /* URLConfig.plist in Resources */,
+				2D5E78601E549220006E3470 /* Main.storyboard in Resources */,
+				2DFF483B1E80428800A57504 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F835E021B05E62D9D9D8BCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E143648894E36843F6C161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3772542379E830092D07A9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkGolf/Pods-ThinkGolf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5E78531E549220006E3470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0345A21E87A75600CE88EE /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				2D5E789E1E561000006E3470 /* CarouselCollectionViewCell.swift in Sources */,
+				2D5E78981E560F91006E3470 /* LoginVC.swift in Sources */,
+				2D5E78A21E561093006E3470 /* DashboardVC.swift in Sources */,
+				2DFF48361E80424F00A57504 /* CommonMethods.swift in Sources */,
+				2D0345A11E87A75600CE88EE /* KYDrawerController.swift in Sources */,
+				2DA94C351E6116EB00580E7E /* CustomPageViewController.swift in Sources */,
+				2D0345A41E87A75600CE88EE /* MainViewController.swift in Sources */,
+				2D0345B11E881C9100CE88EE /* UITableViewVibrantCell.swift in Sources */,
+				2D5E78A01E561000006E3470 /* GradientView.swift in Sources */,
+				2D5E789F1E561000006E3470 /* Character.swift in Sources */,
+				2D3C56371E857279005E0104 /* AFWrapper.swift in Sources */,
+				2DFF48341E803F9800A57504 /* CredentialManager.swift in Sources */,
+				2DFF483C1E80428800A57504 /* KeychainWrapper.swift in Sources */,
+				2D5E785B1E549220006E3470 /* AppDelegate.swift in Sources */,
+				2DFF48531E80440800A57504 /* DateExtension.swift in Sources */,
+				2D0687B41E82B3D100909B61 /* UserInfo.swift in Sources */,
+				2D7C81CF1E864D1E00947B21 /* RegisterUser.swift in Sources */,
+				2DA94C431E61607100580E7E /* RegistrationVC.swift in Sources */,
+				2D0687B01E82AC5300909B61 /* ValidatingTextField.swift in Sources */,
+				2D0345B31E88388C00CE88EE /* ProfileVC.swift in Sources */,
+				2DFF48321E803F9800A57504 /* ConfigurationManager.swift in Sources */,
+				2D0345A01E87A75600CE88EE /* DrawerViewController.swift in Sources */,
+				2D5E78A61E561291006E3470 /* SegueIdentifiers.swift in Sources */,
+				2DFF48541E80440800A57504 /* DictionaryExtensions.swift in Sources */,
+				2DFF484A1E80431B00A57504 /* XMLReader.m in Sources */,
+				2D0345A61E87ABCE00CE88EE /* MenuVC.swift in Sources */,
+				2D0345B01E881C9100CE88EE /* UISideMenuNavigationController.swift in Sources */,
+				2D0345AE1E881C9100CE88EE /* SideMenuManager.swift in Sources */,
+				2D0345A31E87A75600CE88EE /* KYEmbedMainControllerSegue.swift in Sources */,
+				2D5E78A41E561112006E3470 /* UPCarouselFlowLayout.swift in Sources */,
+				2D7C81D21E86D5D900947B21 /* LinkedInWebVC.swift in Sources */,
+				2DB7B18A1E804B5800509C70 /* DBAlertController.swift in Sources */,
+				2DFF48471E80431B00A57504 /* Base64.m in Sources */,
+				2DB13CD91E61E5CA00062994 /* Helper.swift in Sources */,
+				2D5E78631E549220006E3470 /* Think_Golf.xcdatamodeld in Sources */,
+				2DFF48491E80431B00A57504 /* README.md in Sources */,
+				2D0345AF1E881C9100CE88EE /* SideMenuTransition.swift in Sources */,
+				2DFB0DD41E80F1EB00918AF0 /* Reachability.swift in Sources */,
+				2DC9939E1E5D5C7E000CD766 /* CustomPaperCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D5E785E1E549220006E3470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5E785F1E549220006E3470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D5E78661E549220006E3470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5E78671E549220006E3470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D5E78801E549220006E3470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5E78811E549220006E3470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5E78831E549220006E3470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 426741D6F756D80FA8E71D85 /* Pods-ThinkGolf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BMJ72PCJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/BWWalkthrough\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/EZAlertController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/OCMapper\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/PaperCollectionView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyUserDefaults\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
+					"$(PROJECT_DIR)/Think\\ Golf/Framework",
+					"$(PROJECT_DIR)/Think\\ Golf/Framework",
+					"$(PROJECT_DIR)/Think\\ Golf/Framework",
+				);
+				INFOPLIST_FILE = "Think Golf/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vince.golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThinkGolf-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2D5E78841E549220006E3470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95AD6020DF5C57B608CC425 /* Pods-ThinkGolf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BMJ72PCJ8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Alamofire\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/BWWalkthrough\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/EZAlertController\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/IQKeyboardManagerSwift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/OCMapper\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/PaperCollectionView\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyJSON\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftyUserDefaults\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/pop\"",
+					"$(PROJECT_DIR)/Think\\ Golf/Framework",
+					"$(PROJECT_DIR)/Think\\ Golf/Framework",
+					"$(PROJECT_DIR)/Think\\ Golf/Framework",
+				);
+				INFOPLIST_FILE = "Think Golf/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vince.golf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ThinkGolf-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5E78521E549220006E3470 /* Build configuration list for PBXProject "ThinkGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5E78801E549220006E3470 /* Debug */,
+				2D5E78811E549220006E3470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5E78821E549220006E3470 /* Build configuration list for PBXNativeTarget "ThinkGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5E78831E549220006E3470 /* Debug */,
+				2D5E78841E549220006E3470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D5E78611E549220006E3470 /* Think_Golf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D5E78621E549220006E3470 /* Think_Golf.xcdatamodel */,
+			);
+			currentVersion = 2D5E78621E549220006E3470 /* Think_Golf.xcdatamodel */;
+			path = Think_Golf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D5E784F1E549220006E3470 /* Project object */;
+}

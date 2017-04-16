@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Dev</key>
+	<dict>
+		<key>TermsOfUse</key>
+		<string>https://vtelemeddev.mch.com</string>
+		<key>API</key>
+		<dict>
+			<key>RelativePath</key>
+			<string>/golf/api</string>
+			<key>BaseUrl</key>
+			<string>http://52.60.147.19</string>
+			<key>Scheme</key>
+			<string>https</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

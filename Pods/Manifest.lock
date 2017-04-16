@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.2.0)
+  - BWWalkthrough (2.0.0)
+  - EZAlertController (3.2)
+  - IQKeyboardManagerSwift (4.0.8)
+  - OCMapper (2.1)
+  - PaperCollectionView (1.0.4):
+    - pop
+  - pop (1.0.9)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BWWalkthrough
+  - EZAlertController (= 3.2)
+  - IQKeyboardManagerSwift
+  - OCMapper
+  - PaperCollectionView
+  - SVProgressHUD
+  - SwiftyJSON
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  BWWalkthrough: ca4d3c8526486add00bf38e20e9f3e218bda1ade
+  EZAlertController: 633be01320bed47720be54054df47667d61c2481
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  OCMapper: fa22e7b51de7cc38e66b993037076d28a0f31b29
+  PaperCollectionView: e9792714a738c02c6fdcf2ae4f54e81ab8b2d441
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: e72db003dfface3ab9a6be485699a9a5527a38ae
+
+COCOAPODS: 1.2.0.beta.3
