@@ -65,6 +65,7 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
         let indexPath = IndexPath(row: index, section: 0)
         collectionView.scrollToItem(at: indexPath as IndexPath, at: .centeredHorizontally, animated: true)
         paperView.collectionViewController.collectionView?.scrollToItem(at: indexPath as IndexPath, at: .centeredHorizontally, animated: true)
+        
     }
     
     // MARK: - PaperView Delegate
@@ -88,10 +89,10 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
     // MARK: - IBAction
     @IBAction func onTapCircle1(_ sender: UITapGestureRecognizer) {
            print("Tapped 1")
-         self.dismiss(animated: true, completion: nil)
-//        resetCircleSelection()
-//        imgViewCircle1.isHighlighted = true
-//        scrollLayoutAtIndex(0)
+//         self.dismiss(animated: true, completion: nil)
+        resetCircleSelection()
+        imgViewCircle1.isHighlighted = true
+        scrollLayoutAtIndex(0)
     }
     @IBAction func onTapCircle2(_ sender: UITapGestureRecognizer) {
         print("Tapped 2")
@@ -147,20 +148,55 @@ class DashboardVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
            //paper collection
             let cell = collectionView .dequeueReusableCell(withReuseIdentifier: kReuseID, for: indexPath) as! CustomPaperCell
             
-            if cell.contentVC == nil {
-                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ContentViewController") as! ContentViewController
-                cell.delegate = vc
-                paperView.collectionViewController.addChildViewController(vc)
-                cell.scaledView = vc.view
-                vc.didMove(toParentViewController: paperView.collectionViewController)
-                cell.contentVC = vc
-                
+            switch indexPath.row {
+            case 0:
+                if cell.contentVC1 == nil {
+                    let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "NewSessionVC") as! NewSessionVC
+                    cell.delegate = vc
+                    paperView.collectionViewController.addChildViewController(vc)
+                    cell.scaledView = vc.view
+                    vc.didMove(toParentViewController: paperView.collectionViewController)
+                    cell.contentVC1 = vc
+                }
+                break
+            case 1:
+//                if cell.contentVC2 == nil {
+                    let vc = UIStoryboard(name: "GolfPro", bundle: nil).instantiateViewController(withIdentifier: "GolfProVC") as! GolfProVC
+                    cell.delegate = vc
+                    paperView.collectionViewController.addChildViewController(vc)
+                    cell.scaledView = vc.view
+                    vc.didMove(toParentViewController: paperView.collectionViewController)
+                    cell.contentVC2 = vc
+//                }
+                break
+            case 2:
+//                if cell.contentVC2 == nil {
+                    let vc = UIStoryboard(name: "Tutorials", bundle: nil).instantiateViewController(withIdentifier: "TutorialsListVC") as! TutorialsListVC
+                    cell.delegate = vc
+                    paperView.collectionViewController.addChildViewController(vc)
+                    cell.scaledView = vc.view
+                    vc.didMove(toParentViewController: paperView.collectionViewController)
+                    cell.contentVC3 = vc
+//                }
+                break
+            case 3:
+//                if cell.contentVC2 == nil {
+                    let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoadSessionVC") as! LoadSessionVC
+                    cell.delegate = vc
+                    paperView.collectionViewController.addChildViewController(vc)
+                    cell.scaledView = vc.view
+                    vc.didMove(toParentViewController: paperView.collectionViewController)
+                    cell.contentVC4 = vc
+//                }
+                break
+            default:
+                break
+            }
                 cell.layer.cornerRadius = 4
                 cell.clipsToBounds = true
+                return cell
             }
             
-            return cell
-        }
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

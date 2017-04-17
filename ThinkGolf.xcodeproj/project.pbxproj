@@ -21,6 +21,13 @@
 		2D0345B31E88388C00CE88EE /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0345B21E88388C00CE88EE /* ProfileVC.swift */; };
 		2D0687B01E82AC5300909B61 /* ValidatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0687AF1E82AC5300909B61 /* ValidatingTextField.swift */; };
 		2D0687B41E82B3D100909B61 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0687B31E82B3D100909B61 /* UserInfo.swift */; };
+		2D22F8BA1EA3447B0022DD18 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22F8B91EA3447B0022DD18 /* ExpandableCell.swift */; };
+		2D22F8BC1EA3448A0022DD18 /* TutorialsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22F8BB1EA3448A0022DD18 /* TutorialsListVC.swift */; };
+		2D22F8BE1EA485540022DD18 /* Tutorials.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D22F8BD1EA485540022DD18 /* Tutorials.storyboard */; };
+		2D22F8C01EA488AA0022DD18 /* NewSessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22F8BF1EA488AA0022DD18 /* NewSessionVC.swift */; };
+		2D22F8CA1EA48BB60022DD18 /* GolfPro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D22F8C91EA48BB60022DD18 /* GolfPro.storyboard */; };
+		2D22F8CD1EA48C080022DD18 /* GolfProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22F8CC1EA48C080022DD18 /* GolfProVC.swift */; };
+		2D22F8CF1EA48D7F0022DD18 /* LoadSessionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D22F8CE1EA48D7F0022DD18 /* LoadSessionVC.swift */; };
 		2D3C56371E857279005E0104 /* AFWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C56361E857279005E0104 /* AFWrapper.swift */; };
 		2D5E785B1E549220006E3470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5E785A1E549220006E3470 /* AppDelegate.swift */; };
 		2D5E78601E549220006E3470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5E785E1E549220006E3470 /* Main.storyboard */; };
@@ -77,6 +84,13 @@
 		2D0345B21E88388C00CE88EE /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		2D0687AF1E82AC5300909B61 /* ValidatingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatingTextField.swift; sourceTree = "<group>"; };
 		2D0687B31E82B3D100909B61 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		2D22F8B91EA3447B0022DD18 /* ExpandableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		2D22F8BB1EA3448A0022DD18 /* TutorialsListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialsListVC.swift; sourceTree = "<group>"; };
+		2D22F8BD1EA485540022DD18 /* Tutorials.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tutorials.storyboard; sourceTree = "<group>"; };
+		2D22F8BF1EA488AA0022DD18 /* NewSessionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSessionVC.swift; sourceTree = "<group>"; };
+		2D22F8C91EA48BB60022DD18 /* GolfPro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GolfPro.storyboard; sourceTree = "<group>"; };
+		2D22F8CC1EA48C080022DD18 /* GolfProVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolfProVC.swift; sourceTree = "<group>"; };
+		2D22F8CE1EA48D7F0022DD18 /* LoadSessionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadSessionVC.swift; sourceTree = "<group>"; };
 		2D3C56321E85512F005E0104 /* ThinkGolf-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThinkGolf-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D3C56361E857279005E0104 /* AFWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFWrapper.swift; sourceTree = "<group>"; };
 		2D5E78571E549220006E3470 /* ThinkGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +195,79 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		2D22F8C11EA488DD0022DD18 /* Load Session */ = {
+			isa = PBXGroup;
+			children = (
+				2D22F8CE1EA48D7F0022DD18 /* LoadSessionVC.swift */,
+			);
+			name = "Load Session";
+			sourceTree = "<group>";
+		};
+		2D22F8C21EA488E80022DD18 /* New Session */ = {
+			isa = PBXGroup;
+			children = (
+				2D22F8BF1EA488AA0022DD18 /* NewSessionVC.swift */,
+			);
+			name = "New Session";
+			sourceTree = "<group>";
+		};
+		2D22F8C31EA488F30022DD18 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				2D22F8BB1EA3448A0022DD18 /* TutorialsListVC.swift */,
+			);
+			name = Tutorials;
+			sourceTree = "<group>";
+		};
+		2D22F8C41EA488FF0022DD18 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E78A11E561093006E3470 /* DashboardVC.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		2D22F8C51EA489150022DD18 /* Login and Resgistration */ = {
+			isa = PBXGroup;
+			children = (
+				2D5E78941E560F91006E3470 /* LoginVC.swift */,
+				2DA94C421E61607100580E7E /* RegistrationVC.swift */,
+			);
+			name = "Login and Resgistration";
+			sourceTree = "<group>";
+		};
+		2D22F8C61EA489430022DD18 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2D0345B21E88388C00CE88EE /* ProfileVC.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		2D22F8C71EA4894D0022DD18 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2D0345A51E87ABCE00CE88EE /* MenuVC.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		2D22F8CB1EA48BD00022DD18 /* GolfPro */ = {
+			isa = PBXGroup;
+			children = (
+				2D22F8CC1EA48C080022DD18 /* GolfProVC.swift */,
+			);
+			name = GolfPro;
+			sourceTree = "<group>";
+		};
+		2D22F8D01EA48EED0022DD18 /* PaperUI */ = {
+			isa = PBXGroup;
+			children = (
+				2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */,
+			);
+			name = PaperUI;
+			sourceTree = "<group>";
+		};
 		2D3C56351E85726B005E0104 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,12 +336,16 @@
 		2D5E78931E560F91006E3470 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				2D5E78941E560F91006E3470 /* LoginVC.swift */,
-				2DA94C421E61607100580E7E /* RegistrationVC.swift */,
-				2D5E78A11E561093006E3470 /* DashboardVC.swift */,
-				2DC9939D1E5D5C7E000CD766 /* CustomPaperCell.swift */,
-				2D0345A51E87ABCE00CE88EE /* MenuVC.swift */,
-				2D0345B21E88388C00CE88EE /* ProfileVC.swift */,
+				2D22F8B91EA3447B0022DD18 /* ExpandableCell.swift */,
+				2D22F8D01EA48EED0022DD18 /* PaperUI */,
+				2D22F8C51EA489150022DD18 /* Login and Resgistration */,
+				2D22F8C41EA488FF0022DD18 /* Dashboard */,
+				2D22F8C31EA488F30022DD18 /* Tutorials */,
+				2D22F8C61EA489430022DD18 /* Profile */,
+				2D22F8C71EA4894D0022DD18 /* Menu */,
+				2D22F8C21EA488E80022DD18 /* New Session */,
+				2D22F8C11EA488DD0022DD18 /* Load Session */,
+				2D22F8CB1EA48BD00022DD18 /* GolfPro */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -303,6 +394,8 @@
 			isa = PBXGroup;
 			children = (
 				2D5E785E1E549220006E3470 /* Main.storyboard */,
+				2D22F8BD1EA485540022DD18 /* Tutorials.storyboard */,
+				2D22F8C91EA48BB60022DD18 /* GolfPro.storyboard */,
 				2DA94C341E6116EB00580E7E /* Walkthrough.storyboard */,
 				2D5E78661E549220006E3470 /* LaunchScreen.storyboard */,
 			);
@@ -525,6 +618,8 @@
 			files = (
 				2D5E78681E549220006E3470 /* LaunchScreen.storyboard in Resources */,
 				2DA94C361E6116EB00580E7E /* Walkthrough.storyboard in Resources */,
+				2D22F8CA1EA48BB60022DD18 /* GolfPro.storyboard in Resources */,
+				2D22F8BE1EA485540022DD18 /* Tutorials.storyboard in Resources */,
 				2DA94C411E613DD300580E7E /* CenturyGothic Regular.ttf in Resources */,
 				2D0345A81E87B64900CE88EE /* CenturyGothic Bold.ttf in Resources */,
 				2D5E78651E549220006E3470 /* Assets.xcassets in Resources */,
@@ -596,6 +691,7 @@
 				2DFF48361E80424F00A57504 /* CommonMethods.swift in Sources */,
 				2D0345A11E87A75600CE88EE /* KYDrawerController.swift in Sources */,
 				2DA94C351E6116EB00580E7E /* CustomPageViewController.swift in Sources */,
+				2D22F8C01EA488AA0022DD18 /* NewSessionVC.swift in Sources */,
 				2D0345A41E87A75600CE88EE /* MainViewController.swift in Sources */,
 				2D0345B11E881C9100CE88EE /* UITableViewVibrantCell.swift in Sources */,
 				2D5E78A01E561000006E3470 /* GradientView.swift in Sources */,
@@ -613,13 +709,17 @@
 				2DFF48321E803F9800A57504 /* ConfigurationManager.swift in Sources */,
 				2D0345A01E87A75600CE88EE /* DrawerViewController.swift in Sources */,
 				2D5E78A61E561291006E3470 /* SegueIdentifiers.swift in Sources */,
+				2D22F8BC1EA3448A0022DD18 /* TutorialsListVC.swift in Sources */,
+				2D22F8CF1EA48D7F0022DD18 /* LoadSessionVC.swift in Sources */,
 				2DFF48541E80440800A57504 /* DictionaryExtensions.swift in Sources */,
 				2DFF484A1E80431B00A57504 /* XMLReader.m in Sources */,
 				2D0345A61E87ABCE00CE88EE /* MenuVC.swift in Sources */,
+				2D22F8CD1EA48C080022DD18 /* GolfProVC.swift in Sources */,
 				2D0345B01E881C9100CE88EE /* UISideMenuNavigationController.swift in Sources */,
 				2D0345AE1E881C9100CE88EE /* SideMenuManager.swift in Sources */,
 				2D0345A31E87A75600CE88EE /* KYEmbedMainControllerSegue.swift in Sources */,
 				2D5E78A41E561112006E3470 /* UPCarouselFlowLayout.swift in Sources */,
+				2D22F8BA1EA3447B0022DD18 /* ExpandableCell.swift in Sources */,
 				2D7C81D21E86D5D900947B21 /* LinkedInWebVC.swift in Sources */,
 				2DB7B18A1E804B5800509C70 /* DBAlertController.swift in Sources */,
 				2DFF48471E80431B00A57504 /* Base64.m in Sources */,
